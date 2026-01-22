@@ -1,0 +1,502 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <title>MR TRAVELGROUP| SOFTVAZ</title>
+  </head>
+  <body>
+    <nav>
+      <div class="nav__header">
+        <div class="nav__logo">
+          <a href="#" class="logo">MR. TRAVELGROUP</a>
+        </div>
+        <div class="nav__menu__btn" id="menu-btn">
+          <i class="ri-menu-line"></i>
+        </div>
+      </div>
+      <ul class="nav__links" id="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">Destinos</a></li>
+        <li><a href="#tour">Paquetes</a></li>
+        <li><a href="#package">Nosotros</a></li>
+        <li><a href="#contact">Contactos</a></li>
+        <li><a href="#">Ofertas</a></li>
+      </ul>
+      <div class="nav__btns">
+        <button class="btn">Ofertas</button>
+      </div>
+    </nav>
+
+    <header id="home">
+      <div class="header__container">
+        <div class="header__content">
+          <p>¡Conoce nuestras ofertas!</p>
+          <h1>Experiencia Divina</h1>
+          <a href="#tour" class="btn">
+              <span>¡Comprar Ahora!</span>
+              <i class="ri-arrow-right-line"></i>
+          </a>
+        </div>
+        <div class="header__image">
+          <img src="assets/header.png" alt="Viajeros felices" />
+        </div>
+      </div>
+    </header>
+
+    <section class="section__container destination__container" id="about">
+      <h2 class="section__header">Destinos Populares</h2>
+      <p class="section__description">
+        Nuestros Mr's-socios prefieren estos lugares.
+      </p>
+      <div class="destination__grid">
+        <div class="destination__card">
+          <img src="assets/destination-1.jpg" alt="destination" />
+          <div class="destination__card__details">
+            <div>
+              <h4>Encuentro con la Naturaleza</h4>
+              <p>Chiapas, Mx</p>
+            </div>
+            <div class="destination__rating">
+              <span><i class="ri-star-fill"></i></span>
+              4.7
+            </div>
+          </div>
+        </div>
+        <div class="destination__card">
+          <img src="assets/destination-2.jpg" alt="destination" />
+          <div class="destination__card__details">
+            <div>
+              <h4>Cuna de la Gastronomia</h4>
+              <p>Puebla, Mx</p>
+            </div>
+            <div class="destination__rating">
+              <span><i class="ri-star-fill"></i></span>
+              4.5
+            </div>
+          </div>
+        </div>
+        <div class="destination__card">
+          <img src="assets/destination-3.jpg" alt="destination" />
+          <div class="destination__card__details">
+            <div>
+              <h4>Viva México</h4>
+              <p>Jalisco, Mx</p>
+            </div>
+            <div class="destination__rating">
+              <span><i class="ri-star-fill"></i></span>
+              4.8
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section__container journey__container" id="tour">
+      <h2 class="section__header">Todos los paquetes!</h2>
+      <p class="section__description">
+        Descubre cual podria ser tu paquete perfecto.
+      </p>
+      <div class="journey__grid">
+            <div class="journey__card">
+              <div class="journey__card__bg">
+                <span><i class="ri-building-2-line"></i></span>
+                <h4>CIUDAD DE MÉXICO</h4>
+              </div>
+              <div class="journey__card__content">
+                <span><i class="ri-building-2-line"></i></span>
+                <h4>Paquete Capitalino</h4>
+                <div class="journey__content__details">
+                  <div class="journey__detail__item">
+                    <strong><i class="ri-map-pin-line"></i> Sitios turísticos:</strong>
+                    <p>Centro Histórico, Coyoacán, Chapultepec</p>
+                  </div>
+                  <div class="journey__detail__item">
+                    <strong><i class="ri-bus-line"></i> Transporte:</strong>
+                    <p>Autobús turístico, Traslados internos</p>
+                    <span class="journey__detail__price">$1,200 MXN por persona</span>
+                  </div>
+                  <div class="journey__detail__item">
+                    <strong><i class="ri-hotel-line"></i> Hotel:</strong>
+                    <p>4 estrellas, Habitación doble, Desayuno incluido, 2 noches</p>
+                    <span class="journey__detail__price">$3,500 MXN por persona</span>
+                  </div>
+                  <div class="journey__detail__item">
+                    <strong><i class="ri-landscape-line"></i> Lugares para visitar:</strong>
+                    <p>Zócalo, Museo de Antropología, Xochimilco</p>
+                  </div>
+                  <div class="journey__detail__item journey__detail__highlight">
+                    <strong><i class="ri-calendar-line"></i> Paquete turístico:</strong>
+                    <p>Duración: 3 días / 2 noches</p>
+                    <p class="journey__total__price">Costo total: <strong>$4,700 MXN por persona</strong></p>
+                  </div>
+                  <a href="#contact" class="btn">
+                    <span>¡Comprar Ahora!</span>
+                    <i class="ri-arrow-right-line"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <div class="journey__card">
+              <div class="journey__card__bg">
+                <span><i class="ri-ancient-gate-line"></i></span>
+                <h4>OAXACA</h4>
+              </div>
+              <div class="journey__card__content">
+                <span><i class="ri-ancient-gate-line"></i></span>
+                <h4>Paquete Cultural</h4>
+                <div class="journey__content__details">
+                  <div class="journey__detail__item">
+                    <strong><i class="ri-map-pin-line"></i> Sitios turísticos:</strong>
+                    <p>Oaxaca de Juárez, Monte Albán, Hierve el Agua</p>
+                  </div>
+                  <div class="journey__detail__item">
+                    <strong><i class="ri-plane-line"></i> Transporte:</strong>
+                    <p>Vuelo redondo desde Ciudad de México, Traslados locales</p>
+                    <span class="journey__detail__price">$3,500 MXN por persona (ida y regreso)</span>
+                  </div>
+                  <div class="journey__detail__item">
+                    <strong><i class="ri-hotel-line"></i> Hotel:</strong>
+                    <p>3 estrellas, Habitación doble, Desayuno incluido, 3 noches</p>
+                    <span class="journey__detail__price">$4,200 MXN por persona</span>
+                  </div>
+                  <div class="journey__detail__item">
+                    <strong><i class="ri-landscape-line"></i> Lugares para visitar:</strong>
+                    <p>Centro Histórico, Monte Albán, Hierve el Agua</p>
+                  </div>
+                  <div class="journey__detail__item journey__detail__highlight">
+                    <strong><i class="ri-calendar-line"></i> Paquete turístico:</strong>
+                    <p>Duración: 4 días / 3 noches</p>
+                    <p>Transporte: ida y regreso incluidos</p>
+                    <p class="journey__total__price">Costo total: <strong>$7,700 MXN por persona</strong></p>
+                  </div>
+                  <a href="#contact" class="btn">
+                    <span>¡Comprar Ahora!</span>
+                    <i class="ri-arrow-right-line"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+
+
+            <div class="journey__card">
+              <div class="journey__card__bg">
+                <span><i class="ri-cup-line"></i></span>
+                <h4>PUEBLA</h4>
+              </div>
+              <div class="journey__card__content">
+                <span><i class="ri-cup-line"></i></span>
+                <h4>Paquete Gastronómico</h4>
+                <div class="journey__content__details">
+                  <div class="journey__detail__item">
+                    <strong><i class="ri-map-pin-line"></i> Sitios turísticos:</strong>
+                    <p>Puebla capital, Cholula, Atlixco</p>
+                  </div>
+                  <div class="journey__detail__item">
+                    <strong><i class="ri-bus-2-line"></i> Transporte:</strong>
+                    <p>Autobús turístico desde Ciudad de México, Traslados locales</p>
+                    <span class="journey__detail__price">$1,500 MXN por persona (ida y regreso)</span>
+                  </div>
+                  <div class="journey__detail__item">
+                    <strong><i class="ri-hotel-line"></i> Hotel:</strong>
+                    <p>3 estrellas, Habitación doble, Desayuno incluido, 2 noches</p>
+                    <span class="journey__detail__price">$3,000 MXN por persona</span>
+                  </div>
+                  <div class="journey__detail__item">
+                    <strong><i class="ri-landscape-line"></i> Lugares para visitar:</strong>
+                    <p>Centro Histórico, Gran Pirámide de Cholula, Atlixco</p>
+                  </div>
+                  <div class="journey__detail__item journey__detail__highlight">
+                    <strong><i class="ri-calendar-line"></i> Paquete turístico:</strong>
+                    <p>Duración: 3 días / 2 noches</p>
+                    <p>Transporte: ida y regreso incluidos</p>
+                    <p class="journey__total__price">Costo total: <strong>$4,500 MXN por persona</strong></p>
+                  </div>
+                  <a href="#contact" class="btn">
+                    <span>¡Comprar Ahora!</span>
+                    <i class="ri-arrow-right-line"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <div class="journey__card">
+              <div class="journey__card__bg">
+                <span><i class="ri-landscape-fill"></i></span>
+                <h4>CHIAPAS</h4>
+              </div>
+              <div class="journey__card__content">
+                <span><i class="ri-landscape-fill"></i></span>
+                <h4>Paquete Aventura Natural</h4>
+                <div class="journey__content__details">
+                  <div class="journey__detail__item">
+                    <strong><i class="ri-map-pin-line"></i> Sitios turísticos:</strong>
+                    <p>San Cristóbal de las Casas, Palenque, Cañón del Sumidero</p>
+                  </div>
+                  <div class="journey__detail__item">
+                    <strong><i class="ri-plane-line"></i> Transporte:</strong>
+                    <p>Vuelo redondo desde Ciudad de México, Transporte terrestre regional</p>
+                    <span class="journey__detail__price">$4,000 MXN por persona (ida y regreso)</span>
+                  </div>
+                  <div class="journey__detail__item">
+                    <strong><i class="ri-hotel-line"></i> Hotel:</strong>
+                    <p>3 estrellas, Habitación doble, Desayuno incluido, 3 noches</p>
+                    <span class="journey__detail__price">$4,000 MXN por persona</span>
+                  </div>
+                  <div class="journey__detail__item">
+                    <strong><i class="ri-ship-line"></i> Lugares para visitar:</strong>
+                    <p>Zona arqueológica de Palenque, Paseo en lancha, Centro histórico</p>
+                  </div>
+                  <div class="journey__detail__item journey__detail__highlight">
+                    <strong><i class="ri-calendar-line"></i> Paquete turístico:</strong>
+                    <p>Duración: 4 días / 3 noches</p>
+                    <p>Transporte: ida y regreso incluidos</p>
+                    <p class="journey__total__price">Costo total: <strong>$8,000 MXN por persona</strong></p>
+                  </div>
+                  <a href="#contact" class="btn">
+                    <span>¡Comprar Ahora!</span>
+                    <i class="ri-arrow-right-line"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+
+
+
+            <div class="journey__card">
+              <div class="journey__card__bg">
+                <span><i class="ri-goblet-fill"></i></span>
+                <h4>JALISCO</h4>
+              </div>
+              <div class="journey__card__content">
+                <span><i class="ri-goblet-fill"></i></span>
+                <h4>Paquete Tequilero</h4>
+                <div class="journey__content__details">
+                  <div class="journey__detail__item">
+                    <strong><i class="ri-map-pin-line"></i> Sitios turísticos:</strong>
+                    <p>Guadalajara, Tequila, Tlaquepaque</p>
+                  </div>
+                  <div class="journey__detail__item">
+                    <strong><i class="ri-plane-line"></i> Transporte:</strong>
+                    <p>Vuelo redondo desde Ciudad de México, Transporte terrestre regional</p>
+                    <span class="journey__detail__price">$3,800 MXN por persona (ida y regreso)</span>
+                  </div>
+                  <div class="journey__detail__item">
+                    <strong><i class="ri-hotel-line"></i> Hotel:</strong>
+                    <p>3 estrellas, Habitación doble, Desayuno incluido, 3 noches</p>
+                    <span class="journey__detail__price">$4,500 MXN por persona</span>
+                  </div>
+                  <div class="journey__detail__item">
+                    <strong><i class="ri-building-line"></i> Lugares para visitar:</strong>
+                    <p>Centro Histórico de Guadalajara, Destilería en Tequila, Malecón de Chapala</p>
+                  </div>
+                  <div class="journey__detail__item journey__detail__highlight">
+                    <strong><i class="ri-calendar-line"></i> Paquete turístico:</strong>
+                    <p>Duración: 4 días / 3 noches</p>
+                    <p>Transporte: ida y regreso incluidos</p>
+                    <p class="journey__total__price">Costo total: <strong>$8,300 MXN por persona</strong></p>
+                  </div>
+                  <a href="#contact" class="btn">
+                    <span>¡Comprar Ahora!</span>
+                    <i class="ri-arrow-right-line"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+
+
+            <div class="journey__card">
+              <div class="journey__card__bg">
+                <span><i class="ri-sun-fill"></i></span>
+                <h4>QUINTANA ROO</h4>
+              </div>
+              <div class="journey__card__content">
+                <span><i class="ri-sun-fill"></i></span>
+                <h4>Paquete Caribeño</h4>
+                <div class="journey__content__details">
+                  <div class="journey__detail__item">
+                    <strong><i class="ri-map-pin-line"></i> Sitios turísticos:</strong>
+                    <p>Cancún, Playa del Carmen, Tulum</p>
+                  </div>
+                  <div class="journey__detail__item">
+                    <strong><i class="ri-plane-line"></i> Transporte:</strong>
+                    <p>Vuelo redondo desde Ciudad de México, Traslados aeropuerto–hotel–aeropuerto</p>
+                    <span class="journey__detail__price">$4,500 MXN por persona (ida y regreso)</span>
+                  </div>
+                  <div class="journey__detail__item">
+                    <strong><i class="ri-hotel-line"></i> Hotel:</strong>
+                    <p>4 estrellas, Habitación doble, Desayuno incluido, 3 noches</p>
+                    <span class="journey__detail__price">$6,000 MXN por persona</span>
+                  </div>
+                  <div class="journey__detail__item">
+                    <strong><i class="ri-water-percent-line"></i> Lugares para visitar:</strong>
+                    <p>Zona arqueológica de Tulum, Isla Mujeres, Cenotes</p>
+                  </div>
+                  <div class="journey__detail__item journey__detail__highlight">
+                    <strong><i class="ri-calendar-line"></i> Paquete turístico:</strong>
+                    <p>Duración: 4 días / 3 noches</p>
+                    <p>Transporte: ida y regreso incluidos</p>
+                    <p class="journey__total__price">Costo total: <strong>$10,500 MXN por persona</strong></p>
+                  </div>
+                  <a href="#contact" class="btn">
+                    <span>¡Comprar Ahora!</span>
+                    <i class="ri-arrow-right-line"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+
+
+      </div>
+    </section>
+
+    <section class="section__container showcase__container" id="package">
+      <div class="showcase__image">
+        <img src="assets/showcase.jpg" alt="showcase" />
+      </div>
+      <div class="showcase__content">
+        <h4>Maletas Llenas, Corazón Contento: La Emoción de Viajar</h4>
+        <p>
+        Cuando cerramos la maleta, estamos abriendo algo más: la posibilidad de sanar. 
+        No es solo poesía de manual hippie; 
+        la ciencia confirma que viajar opera en nosotros una transformación profunda,
+        casi alquímica, donde cada kilómetro recorrido es un paso hacia una versión más plena y conectada de nosotros mismos.
+        </p>
+        <div class="showcase__btn">
+          <button class="btn">
+                  <a href="#contact">
+                    <span>¡Conocenos Ahora!</span>
+                    <i class="ri-arrow-right-line"></i>
+                  </a>
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <section class="section__container banner__container">
+      <div class="banner__card">
+        <h4>Chiapas</h4>
+        <p>Recibió un total de 5.7 millones de turistas nacionales.</p>
+      </div>
+      <div class="banner__card">
+        <h4>Puebla</h4>
+        <p>Recibió un total de 13.5 millones de turistas nacionales.</p>
+      </div>
+      <div class="banner__card">
+        <h4>Jalisco</h4>
+        <p>Recibió la impresionante cifra de 17.8 millones de turistas nacionales.</p>
+      </div>
+    </section>
+
+     <section class="section__container discover__container">
+        <h2 class="section__header">Descubre el Poder de Viajar</h2>
+        <p class="section__description">
+            México no solo se explora, se siente. Millones de historias comienzan aqui.
+        </p>
+        <div class="discover__grid">
+            <div class="discover__card">
+                <span><i class="ri-globe-line"></i></span>
+                <h4>Un Gigante que Recibe</h4>
+                <p>
+                    México es un imán global, recibiendo a más de <strong>42 millones de visitantes internacionales</strong> al año, consolidándose como uno de los destinos más vibrantes y diversos del planeta.
+                </p>
+            </div>
+            <div class="discover__card">
+                <span><i class="ri-heart-3-line"></i></span>
+                <h4>El Corazón viaja en Casa</h4>
+                <p>
+                    El verdadero motor es su gente. Con <strong>más de 230 millones de viajes al año</strong>, los mexicanos descubren la riqueza infinita de su propio país, desde sus playas hasta sus pueblos mágicos.
+                </p>
+            </div>
+            <div class="discover__card">
+                <span><i class="ri-bar-chart-fill"></i></span>
+                <h4>Destinos que Marcan la Ruta</h4>
+                <p>
+                    Estados como <strong>Jalisco, Puebla y Chiapas</strong> reciben a decenas de millones de viajeros nacionales, demostrando que la aventura, la cultura y la naturaleza están más cerca de lo que imaginas.
+                </p>
+            </div>
+        </div>
+        <p class="section__subtext" style="margin-top: 2rem; font-style: italic; font-size: 0.9rem; color: #666;">
+            *Datos oficiales de SECTUR e INEGI 2023. Cada número representa una historia, una experiencia y un corazón que elige descubrir.
+        </p>
+    </section>
+
+
+    <footer id="contact">
+      <div class="section__container footer__container">
+        <div class="footer__col">
+          <div class="footer__logo">
+            <a href="#" class="logo">Mr Travelgroup</a>
+          </div>
+            Explora México con facilidad y emoción a través de nuestra completa plataforma de viajes. 
+            Tu viaje comienza aquí, donde la planificación perfecta se une a experiencias inolvidables.
+          </p>
+          <ul class="footer__socials">
+            <li>
+              <a href="https://www.facebook.com/people/MR-Travelgroup/61586633260189/?rdid=Be7BoDO79BB5s6f3&share_url=https%3A%2F%2Fwww.facebook.com%2Fshare%2F17sW6cY36L%2F"><i class="ri-facebook-fill"></i></a>
+            </li>
+            <li>
+              <a href="https://www.instagram.com/mr_travelgroup"><i class="ri-instagram-line"></i></a>
+            </li>
+            <li>
+              <a href="https://www.youtube.com/watch?v=3Rob_ellUyU&t=101s"><i class="ri-youtube-line"></i></a>
+            </li>
+          </ul>
+        </div>
+        <div class="footer__col">
+          <h4>Quick Links</h4>
+          <ul class="footer__links">
+        <li><a href="#about">Destinos</a></li>
+        <li><a href="#tour">Paquetes</a></li>
+        <li><a href="#package">Nosotros</a></li>
+        <li><a href="#contact">Contactos</a></li>
+          </ul>
+        </div>
+        <div class="footer__col">
+          <h4>Contacto</h4>
+          <ul class="footer__links">
+            <li>
+              <a href="+52 221 849 0038">
+                <span><i class="ri-phone-fill"></i></span> +52 221 849 0038
+              </a>
+            </li>
+            <li>
+              <a href="mr.travelgroup2@gmail.com">
+                <span><i class="ri-record-mail-line"></i></span> mr.travelgroup2@gmail.com
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <span><i class="ri-map-pin-2-fill"></i></span> Puebla, México
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div class="footer__col">
+          <h4>Subscribete</h4>
+          <form action="/">
+            <input type="text" placeholder="Ingresa un mensaje" />
+            <button class="btn">Enviar</button>
+          </form>
+        </div>
+      </div>
+      <div class="footer__bar">
+        Copyright © 2026 SOFTVAZ DERECHOS RESERVADOS.
+      </div>
+    </footer>
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="main.js"></script>
+  </body>
+</html>
